@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,10 +6,22 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #000;
+}
+
+div.pontos{
+    display: flex;
+    width: 50%;
+    margin: 0 auto 2rem;
+    justify-content: space-between;
+}
+
+h2{
+    color: #fff;
 }
 
 canvas {
